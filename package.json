@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/cocktail",
+  "version": "1.0.0",
+  "description": "Cocktail is a simple tool for getting cocktail recipes. It returns the ingredients, instructions, and more of the cocktail.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/cocktail-API.git"
+  },
+  "keywords": [
+    "cocktail"," cocktail recipe"," cocktail api"," cocktail tool"," cocktail software"," cocktail service"," cocktail library"," cocktail sdk"," cocktail code"," cocktail script"," cocktail program"," cocktail application"," cocktail app"," cocktail utility"," cocktail helper"," cocktail helper tool"," cocktail helper software"," cocktail helper service"," cocktail helper library"," cocktail helper sdk"," cocktail helper code"," cocktail helper script"," cocktail helper program"," cocktail helper application"," cocktail helper app"," cocktail helper utility"," cocktail helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/cocktail-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/cocktail-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
