@@ -1,4 +1,4 @@
-Cocktail API
+Cocktail Recipe API
 ============
 
 Cocktail is a simple tool for getting cocktail recipes. It returns the ingredients, instructions, and more of the cocktail.
@@ -7,7 +7,7 @@ Cocktail is a simple tool for getting cocktail recipes. It returns the ingredien
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Javascript Wrapper for the [Cocktail API](https://apiverve.com/marketplace/api/cocktail)
+This is a Javascript Wrapper for the [Cocktail Recipe API](https://apiverve.com/marketplace/api/cocktail)
 
 ---
 
@@ -25,7 +25,7 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Cocktail API documentation is found here: [https://docs.apiverve.com/api/cocktail](https://docs.apiverve.com/api/cocktail).  
+The Cocktail Recipe API documentation is found here: [https://docs.apiverve.com/api/cocktail](https://docs.apiverve.com/api/cocktail).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -192,7 +192,8 @@ api.execute(query, function (error, data) {
         "preparation": "Stir in mixing glass with ice cubes. Strain into chilled martini glass. Squeeze oil from lemon peel onto the drink, or garnish with olive."
       }
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
